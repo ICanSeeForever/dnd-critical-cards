@@ -1,0 +1,5 @@
+data/
+.ssh-temp/
+*.tar.gz
+raw.json
+node_modules/

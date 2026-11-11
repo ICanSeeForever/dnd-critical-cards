@@ -1,0 +1,9 @@
+services:
+  dnd-crits:
+    build: .
+    container_name: dnd-crits
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:18187:3000"
+    volumes:
+      - ./data:/app/data
